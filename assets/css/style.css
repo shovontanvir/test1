@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
+html{
+	font-family: Ubuntu;
+}
+
+.container{
+	display: flex;
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*background-color: lightgreen;*/
+	height: 100vh;
+}
+
+.navbar{
+	height: 75px;
+	display: flex;
+	width: 100%;
+	background-color: transparent;
+	align-self: flex-start;
+	justify-content: space-between;
+}
+
+.navitem{
+	align-self: center;
+	display: flex;
+	padding: 5px;
+	list-style-type: none;
+}
+
+img{
+	height: 100%;
+}
+.navbar .navitem li, h3{
+	list-style-type: none;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.navbar .navitem li a, h3 a{
+	text-decoration: none;
+	color: red;
+}
+
+.navbar .navitem h3 a{
+	
+	font-weight: 600px;
+	font-size: 30px;
+}
+
+.navbar .navitem li a{
+	font-size: 20px;
+}
+
+
